@@ -1,0 +1,154 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;    
+}
+
+header{
+    height: 90px;
+    width: 100%;
+    background-color: crimson;
+    font-size: 25px;
+    padding: 5px;
+    color: rgb(233, 227, 223);
+}
+.arriba{
+    height: 45px;
+    color: rgb(223, 233, 233);
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 50px;
+    background-color: rgb(60, 121, 25);
+}
+.logo{
+    float: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.logo strong em{
+    font-size: 50px;
+}
+.logo span{
+    color: #111213;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.nav1{
+    float: right;
+}
+.nav1 ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 25px;
+    padding-top: 30px;
+}
+
+.nav1 a{
+    text-decoration: none;
+    color: rgb(31, 9, 112);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: capitalize;
+}
+.nav1 a:hover{
+    color: rgb(15, 15, 14);
+}
+/*body{
+    background-color: #f5aa54;
+    
+}
+
+/* slider*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.slider{
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+.slider ul{
+    display: flex;
+    animation: cambio 20s infinite alternate linear;
+    width: 400%;
+}
+.slider li{
+    width: 100%;
+    list-style: none;
+}
+.slider img{
+    width: 100%;
+    height: 100%;
+}
+@keyframes cambio{
+    0%{margin-left: 0;}
+    20%{margin-left: 0;}
+    
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+    
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+    
+    75%{margin-left: -300%;}
+    100%{margin-left: -300%;}
+}
+@media only screen and (min-width:320px) and (max-width:768px){
+.slider, .slider ul, .slider img{
+    height: 100vh;
+}
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+.verduras{
+    display: flex;
+    flex-direction: column;
+    border: solid blue 3px ;
+    justify-content: space-around;
+    align-items: center;
+    width: 30%;
+    height: 1500px;
+}
+.verduras img{
+    width: 80%;
+}
+/* section{
+    height: 90px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    font-size: 25px;
+    padding: 5px;
+    
+} */
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) ;
+    grid-template-rows: repeat(2, 1fr) ;
+    /*se puede escribir resumido */
+    /* grid-template: repeat(3, 1fr) / repeat(2, 1fr) ; */
+    grid-template-areas: 
+    "papa papa "
+    "cebolla cebolla "
+    "zanahoria zanahoria "
+    ;
+}
+
+.medio{
+    height: 90px;
+    width: 100%;
+    background-color: crimson;
+    font-size: 25px;
+    padding: 5px;
+    color: rgb(233, 227, 223);
+
+}
+.mapa{
+    height: 40px;
+    width: 100%;
+    background-color: aqua;
+}
