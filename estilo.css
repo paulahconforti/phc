@@ -152,3 +152,7 @@ section{
     width: 100%;
     background-color: aqua;
 }
+p{
+    padding: 20px;
+    color: blueviolet;
+}
